@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "682332931a787504e1efc77a"
+  },
+  "userName": "bubby",
+  "mobileNumber": "8686759004",
+  "password": "$2b$10$rwlfcTtbOgiYXeoMdUB2zuqdZZNrKCrfho58l6znpyx9GqnmlQJCe",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-05-13T11:52:51.884Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-13T11:52:51.884Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68233544db63a15aac0bd230"
+  },
+  "userName": "Ajay",
+  "mobileNumber": "8686868480",
+  "password": "$2b$10$dKlhUU7kPN.QLqQ0420XVejNNbCxaaOKVu2tQU.1OSGWq9bmTQjCu",
+  "role": "admin",
+  "createdAt": {
+    "$date": "2025-05-13T12:04:20.608Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-13T12:04:20.608Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68233550db63a15aac0bd233"
+  },
+  "userName": "Kalyan",
+  "mobileNumber": "8919098112",
+  "password": "$2b$10$k4Bw76J/VJQwYOi9fNENI.ycoGjD4PjSzxLqVFz0FkLau8yRXx6Ui",
+  "role": "admin",
+  "createdAt": {
+    "$date": "2025-05-13T12:04:32.224Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-13T12:04:32.224Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68233558db63a15aac0bd236"
+  },
+  "userName": "Shyam",
+  "mobileNumber": "7893598112",
+  "password": "$2b$10$nL6T92nxWdJVIaJ4kmohNOZaoXQUuvGiXPPdH2Z4Tn8YapgpuSIze",
+  "role": "admin",
+  "createdAt": {
+    "$date": "2025-05-13T12:04:40.766Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-13T12:04:40.766Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68233562db63a15aac0bd239"
+  },
+  "userName": "Srinath",
+  "mobileNumber": "8185858998",
+  "password": "$2b$10$NjzasNtObiB7O0o4IhFoyu0yO2elWBFvkzZ2LPex/PXnCgzce6uoK",
+  "role": "admin",
+  "createdAt": {
+    "$date": "2025-05-13T12:04:50.366Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-13T12:04:50.366Z"
+  },
+  "__v": 0
+}]

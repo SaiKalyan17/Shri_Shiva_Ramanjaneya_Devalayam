@@ -1,0 +1,43 @@
+
+.god-box{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    margin: 10px;
+    background: linear-gradient(rgb(233, 91, 43),rgb(125, 57, 228));
+    border-radius: 50px;
+   
+}
+.subgod-cards{
+    text-align: center;
+    border: 3px solid;
+    padding: 5px;
+    border-radius: 35px;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+.subgod-cards img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+.subgod-cards h2,h3{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 300;
+   
+    padding: 5px;
+}
+@media (max-width:768px){
+    .god-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .subgod-cards img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+}

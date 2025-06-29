@@ -1,0 +1,136 @@
+/* .delete-box{
+    width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 20px;
+}
+input{
+    height: 30px;
+    margin: 20px;
+} */
+
+/* Input box at top */
+.delete-box {
+  text-align: center;
+  margin: 40px auto 20px;
+  max-width: 500px;
+  padding: 20px;
+  
+}
+
+.delete-box h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.delete-box input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #0072ff;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 0 4px 10px rgba(0, 114, 255, 0.1);
+}
+
+/* Container for all events */
+.delete-container {
+  padding: 30px 20px;
+  max-width: 1000px;
+  margin: auto;
+  background: linear-gradient(135deg, #f1f4ff, #e2e8f0);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  text-align: justify;
+}
+
+/* Title for upcoming events */
+.title-1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #1a237e;
+}
+
+/* Individual event block */
+.event-details-2 {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+}
+
+.event-details-2:hover {
+  transform: translateY(-5px);
+}
+
+.ename-2 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.event-details-2 h2 {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.con-2 h3 {
+  font-size: 15px;
+  color: #666;
+  margin: 4px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .delete-box input {
+    font-size: 15px;
+  }
+
+  .title-1 {
+    font-size: 24px;
+  }
+
+  .event-details-2 {
+    padding: 15px;
+  }
+
+  .ename-2 {
+    font-size: 18px;
+  }
+
+  .event-details-2 h2,
+  .con-2 h3 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .delete-box {
+    padding: 10px;
+  }
+
+  .delete-box h1,
+  .title-1 {
+    font-size: 20px;
+  }
+
+  .delete-box input {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .event-details-2 h2,
+  .con-2 h3 {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,75 @@
+[{
+  "_id": {
+    "$oid": "6858fe2c358d41875fac407e"
+  },
+  "eventName": "Ganesh Chathuri ",
+  "date": "28-08-2025",
+  "description": "Ganesh Chaturthi, also known as Vinayaka Chaturthi, is a Hindu festival celebrating the birth of Lord Ganesha The festival usually falls in the Hindu month of Bhadrapada (August–September) and lasts for 10 days. Contact 8185858998 for more details.",
+  "createdAt": {
+    "$date": "2025-06-23T07:11:40.816Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-23T07:11:40.816Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6858fedb358d41875fac4084"
+  },
+  "eventName": "Sri Rama Navami",
+  "date": "30-03-2025",
+  "description": "Sri Rama Navami is a sacred Hindu festival that celebrates the birth of Lord Rama, the 7th incarnation of Lord Vishnu, who is considered the embodiment of truth, virtue, and dharma. \n Contact 8185858998 for more details.",
+  "createdAt": {
+    "$date": "2025-06-23T07:14:35.833Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-23T07:14:35.833Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68596f4d59cbdb49a073f9a7"
+  },
+  "eventName": "Sri Rama Navami 22222",
+  "date": "30-03-2025",
+  "description": "Sri Rama Navami is a sacred Hindu festival that celebrates the birth of Lord Rama, the 7th incarnation of Lord Vishnu, who is considered the embodiment of truth, virtue, and dharma. \n Contact 8185858998 for more details. 3222222",
+  "createdAt": {
+    "$date": "2025-06-23T15:14:21.814Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-23T15:14:21.814Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685c14d49a862118833bfe98"
+  },
+  "eventName": "Sri Rama Navami 3333",
+  "date": "30-03-2025",
+  "description": "కొదండ రాముడు అనేది భగవాన్ శ్రీరాముని ఒక విఖ్యాత రూపం. శ్రీరాముడు హిందూ మతంలో ముఖ్యమైన దేవతలలో ఒకరు మరియు మహావిష్ణువు యొక్క ఏడవ అవతారంగా పరిగణించబడతారు. ఈ రూపంలో ఆయన “కొదండ” అనే ధనుస్సును ధరించి కనిపిస్తారు, ఇది ధర్మాన్ని రక్షించేందుకు మరియు అశుభాన్ని నిర్మూలించేందుకు ఆయన సన్నద్ధతను సూచిస్తుంది. కొదండ రాముడు సాధారణంగా అరణ్యవాస కాలంలో, ముఖ్యంగా రావణుడితో యుద్ధానికి ముందు లేదా యుద్ధ సమయంలో దర్శించబడతారు. ఆయన శాంతంగా, న్యాయప్రియుడిగా ఉంటారు, కానీ ఎల్లప్పుడూ అన్యాయాన్ని నాశనం చేయటానికి ఆయుధంతో సిద్ధంగా ఉంటారు. ఆయన ధరించిన కొదండ ధనుస్సు ఏ రాక్షసుడినైనా లేదా దుష్టశక్తిని కూడా సంహరించగల శక్తిమంతమైనదిగా చెబుతారు",
+  "createdAt": {
+    "$date": "2025-06-25T15:25:08.313Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-25T15:25:08.313Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685cefcf4053e7cc9c88b8a3"
+  },
+  "eventName": "Kalyan's Birthday",
+  "date": "2025-07-22",
+  "description": "When you go to localhost:5173/login, it usually means you’re accessing a local development environment where applications are hosted while they’re being developed. This URL is often linked to Vite.js, a modern build tool that has become essential in frontend development. Vite.js acts as a development server, making it easier to build and test web applications.\n\nRead more here: https://locall.host/5173-login/",
+  "createdAt": {
+    "$date": "2025-06-26T06:59:27.200Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-26T06:59:27.200Z"
+  },
+  "__v": 0
+}]

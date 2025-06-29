@@ -1,0 +1,71 @@
+/* AdminQueries.css */
+
+.admin-queries-box {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #fefcea, #f1da36);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.admin-queries-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.query-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.query-table th, .query-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.query-table th {
+    background-color: #ffb300;
+    color: white;
+    font-weight: 600;
+}
+
+.query-table tr:hover {
+    background-color: #fff8e1;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .query-table, .query-table thead, .query-table tbody, .query-table th, .query-table td, .query-table tr {
+        display: block;
+    }
+
+    .query-table thead tr {
+        display: none;
+    }
+
+    .query-table tr {
+        margin-bottom: 15px;
+    }
+
+    .query-table td {
+        padding-left: 50%;
+        position: relative;
+        text-align: left;
+    }
+
+    .query-table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 16px;
+        top: 12px;
+        font-weight: bold;
+        color: #333;
+    }
+}

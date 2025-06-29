@@ -1,0 +1,14 @@
+if we use ES6 import/export 
+the import statement is
+import express from 'express'
+export default/ export router
+
+Where as commonJs syntax
+
+const express = require("express")
+
+module.export = app;
+
+PORT = 8989
+
+#For Database

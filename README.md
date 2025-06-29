@@ -1,0 +1,2 @@
+# Shri_Shiva_Ramanjaneya_Devalayam
+VITE_API_BASE_URL

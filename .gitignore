@@ -1,0 +1,14 @@
+# Global
+node_modules
+.env
+**/.env
+.env.local
+.env.*.local
+
+# Build
+
+
+frontend/dist
+
+# Logs
+*.log

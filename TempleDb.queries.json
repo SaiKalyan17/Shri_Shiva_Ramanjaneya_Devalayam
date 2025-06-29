@@ -1,0 +1,392 @@
+[{
+  "_id": {
+    "$oid": "68238c2997393ce970753c58"
+  },
+  "name": "Kalyan",
+  "mobileNumber": "111111111",
+  "Inquiry": "About Shani Pooja",
+  "answer": {
+    "answeredBy": "Kalyan",
+    "answer": "Contact 8185858998 for more info 1111",
+    "_id": {
+      "$oid": "6823941334f2aee5c0b378d7"
+    },
+    "answeredAt": {
+      "$date": "2025-05-13T18:48:51.428Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-05-13T18:15:05.490Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68238db5091c3801f5ea445c"
+  },
+  "name": "Bubby",
+  "mobileNumber": "111111111",
+  "Inquiry": "About hello world",
+  "answer": {
+    "answer": "Contact 8185858998 for more info 1111",
+    "_id": {
+      "$oid": "682393c4d98995a1375aa696"
+    },
+    "answeredAt": {
+      "$date": "2025-05-13T18:47:32.972Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-05-13T18:21:41.994Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68238dc2091c3801f5ea445e"
+  },
+  "name": "Bubby",
+  "mobileNumber": "111111111",
+  "Inquiry": "About my world",
+  "answer": null,
+  "createdAt": {
+    "$date": "2025-05-13T18:21:54.104Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68238dc8091c3801f5ea4460"
+  },
+  "name": "Bubby",
+  "mobileNumber": "111111111",
+  "Inquiry": "About my this thing",
+  "answer": {
+    "_id": {
+      "$oid": "6823935604d4da3987dcfc0f"
+    },
+    "answeredAt": {
+      "$date": "2025-05-13T18:45:42.295Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-05-13T18:22:00.040Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68239d7a52cb1ab65fe41779"
+  },
+  "name": "Charan",
+  "mobileNumber": "2222222222",
+  "Inquiry": "FInal test",
+  "answer": null,
+  "createdAt": {
+    "$date": "2025-05-13T19:28:58.059Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68248bad5b4959211d8337da"
+  },
+  "name": "Shyam",
+  "mobileNumber": "3333333222",
+  "Inquiry": "Namaskaram",
+  "answer": {
+    "answeredBy": "Srinath",
+    "answer": "Contact 8185858998 for more info 2222",
+    "_id": {
+      "$oid": "68248c215b4959211d8337e0"
+    },
+    "answeredAt": {
+      "$date": "2025-05-14T12:27:13.326Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-05-14T12:25:17.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682490db46737d094d4e97e2"
+  },
+  "name": "Shyam",
+  "mobileNumber": "8919098112",
+  "Inquiry": "This is test query for twillo testing",
+  "answer": {
+    "answeredBy": "Kalyan Twillo",
+    "answer": "This is using twillo this should be read by sms",
+    "_id": {
+      "$oid": "6824911a46737d094d4e97e6"
+    },
+    "answeredAt": {
+      "$date": "2025-05-14T12:48:26.743Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-05-14T12:47:23.380Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682491ae8b6249c43b3617bf"
+  },
+  "name": "Shyamalatha",
+  "mobileNumber": "8919098112",
+  "Inquiry": "This is test query for twillo testing 2 2222 ",
+  "answer": {
+    "answeredBy": "Kalyan Twillo",
+    "answer": "This is using twillo this should be read by sms 22222",
+    "_id": {
+      "$oid": "682491be8b6249c43b3617c3"
+    },
+    "answeredAt": {
+      "$date": "2025-05-14T12:51:10.694Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-05-14T12:50:54.231Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6824926e8b6249c43b3617c5"
+  },
+  "name": "Shyamalatha",
+  "mobileNumber": "8919098112",
+  "Inquiry": "This is test query for twillo testing 333333 ",
+  "answer": {
+    "answeredBy": "Kalyan Twillo",
+    "answer": "This is using twillo this should be read by sms 333333",
+    "_id": {
+      "$oid": "682492838b6249c43b3617c9"
+    },
+    "answeredAt": {
+      "$date": "2025-05-14T12:54:27.997Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-05-14T12:54:06.267Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682492fc8b6249c43b3617cc"
+  },
+  "name": "Srinath",
+  "mobileNumber": "8919098112",
+  "Inquiry": "This is test query for twillo testing 10000000 ",
+  "answer": {
+    "answeredBy": "Kalyan Twillo",
+    "answer": "This is using twillo this should be read by sms 100000",
+    "_id": {
+      "$oid": "682493108b6249c43b3617d0"
+    },
+    "answeredAt": {
+      "$date": "2025-05-14T12:56:48.576Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-05-14T12:56:28.968Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6824942398c86782d25df2e5"
+  },
+  "name": "Srinath",
+  "mobileNumber": "+91 8919098112",
+  "Inquiry": "This is test query for twillo testing 111111111 ",
+  "answer": {
+    "answeredBy": "Kalyan Twillo",
+    "answer": "This is using twillo this should be read by sms 111111111",
+    "_id": {
+      "$oid": "6824945398c86782d25df2eb"
+    },
+    "answeredAt": {
+      "$date": "2025-05-14T13:02:11.872Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-05-14T13:01:23.154Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682494c7c6e26e783d6e92ae"
+  },
+  "name": "Srinath",
+  "mobileNumber": "8919098112",
+  "Inquiry": "This is test query for twillo testing fbeuefboubefwi ",
+  "answer": {
+    "answeredBy": "Kalyan Twillo",
+    "answer": "This is using twillo this should be read by sms ehnoefnow u",
+    "_id": {
+      "$oid": "682494d4c6e26e783d6e92b2"
+    },
+    "answeredAt": {
+      "$date": "2025-05-14T13:04:20.101Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-05-14T13:04:07.760Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6824a3f9c6e26e783d6e92b4"
+  },
+  "name": "Srinath",
+  "mobileNumber": "6302338255",
+  "Inquiry": "How to send message to you",
+  "answer": {
+    "answeredBy": "Kalyan Twillo",
+    "answer": "Thanks for reaching us contact 8185858998, (to Bubby mobile)",
+    "_id": {
+      "$oid": "6824a41fc6e26e783d6e92b8"
+    },
+    "answeredAt": {
+      "$date": "2025-05-14T14:09:35.417Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-05-14T14:08:57.318Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6824a5467f53b0c7a213a0e2"
+  },
+  "name": "Charan",
+  "mobileNumber": "6302338255",
+  "Inquiry": "How to send message to you???",
+  "answer": {
+    "answeredBy": "Kalyan Twillo",
+    "answer": "Thanks for reaching us contact 8185858998, (to Bubby mobile) helloooo",
+    "_id": {
+      "$oid": "6824a5597f53b0c7a213a0e6"
+    },
+    "answeredAt": {
+      "$date": "2025-05-14T14:14:49.645Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-05-14T14:14:30.809Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6824a5a294a4ebee1cd6bc58"
+  },
+  "name": "Charan",
+  "mobileNumber": "6302338255",
+  "Inquiry": "How to send message to you???hello world",
+  "answer": {
+    "answeredBy": "Kalyan Twillo",
+    "answer": "Thanks for reaching us contact 8185858998, (to Bubby mobile) helloooo",
+    "_id": {
+      "$oid": "6824a668c95b1dc2ec321803"
+    },
+    "answeredAt": {
+      "$date": "2025-05-14T14:19:20.477Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-05-14T14:16:02.890Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6824a69c678a843a8597c51b"
+  },
+  "name": "Charan",
+  "mobileNumber": "6302338255",
+  "Inquiry": "How to send message to you???hello worldqqqqqqq",
+  "answer": {
+    "answeredBy": "Kalyan Twillo",
+    "answer": "Thanks for reaching us contact 8185858998, (to Bubby mobile) helloooo",
+    "_id": {
+      "$oid": "6824a6aa678a843a8597c51f"
+    },
+    "answeredAt": {
+      "$date": "2025-05-14T14:20:26.689Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-05-14T14:20:12.474Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6824b6cde28d4f40abe00a13"
+  },
+  "name": "Sai Kalyan",
+  "mobileNumber": "8185858998",
+  "Inquiry": "I need abshiekam details",
+  "answer": {
+    "answeredBy": "Arutla Srinath",
+    "answer": "Thanks for reaching us contact 8919098112 for more details",
+    "_id": {
+      "$oid": "6824b734fbb5553acc791f36"
+    },
+    "answeredAt": {
+      "$date": "2025-05-14T15:31:00.743Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-05-14T15:29:17.719Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6859af8059cbdb49a073f9f7"
+  },
+  "name": "Arutla Sai Kalyan",
+  "mobileNumber": "7893598112",
+  "Inquiry": "HHHHHHHH",
+  "answer": null,
+  "createdAt": {
+    "$date": "2025-06-23T19:48:16.502Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685cea5f4053e7cc9c88b892"
+  },
+  "name": "Sai Kalyan Arutla",
+  "mobileNumber": "8919098112",
+  "Inquiry": "Regarding pooja",
+  "answer": null,
+  "createdAt": {
+    "$date": "2025-06-26T06:36:15.920Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685e34b44053e7cc9c88b8fd"
+  },
+  "name": "hhhhh",
+  "mobileNumber": "7893598112",
+  "Inquiry": "ydujtdfitdydfyd",
+  "answer": null,
+  "createdAt": {
+    "$date": "2025-06-27T06:05:40.695Z"
+  },
+  "__v": 0
+}]

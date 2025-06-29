@@ -1,0 +1,90 @@
+.logo-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.nav-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url("../../assets/bgim8.jpg");
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 4px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.items-list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 0 0.5rem;
+    padding: 0 8px;
+    font-size: 1.3rem;
+}
+.active {
+    background-color: rgba(72, 10, 218, 0.5);
+    padding: 5px;
+    border-radius: 15px;
+}
+.nav-container ul li a:not(.active):hover {
+    background-color: rgba(105, 69, 189, 0.5);
+    padding: 3px;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+}
+
+.nav-container .menu {
+    display: none;
+    background-image: url("../../assets/bgim8.jpg");
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 1.5rem;
+    cursor: pointer;
+    margin-top: 0.75rem;
+}
+
+.nav-container .menu span {
+    width: 100%;
+    height: 0.4rem;
+    background-color: green;
+    border-radius: 0.2rem;
+}
+
+@media (max-width: 480px) {
+    .nav-container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-container .menu {
+        display: flex;
+    }
+
+    .items-list {
+        display: none;
+        font-size: 1rem;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }
+
+    .items-list.show {
+        display: flex;
+    }
+    .nav-container h2{
+        font-size: 12px;
+    }
+}

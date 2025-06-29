@@ -1,0 +1,138 @@
+/* Main container */
+.update-container {
+  padding: 30px 20px;
+  max-width: 1000px;
+  margin: auto;
+  background: linear-gradient(135deg, #f5f9ff, #dbe6f3);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  text-align: justify;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Title */
+.update-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #1a237e;
+  font-weight: 600;
+}
+
+/* Event card */
+.update-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+}
+
+.update-card:hover {
+  transform: translateY(-5px);
+}
+
+.update-card h2 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.update-card p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Form for updating */
+.update-form input,
+.update-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  border: 2px solid #0072ff;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 0 4px 10px rgba(0, 114, 255, 0.1);
+  background-color: #fff;
+}
+
+.update-form textarea {
+  resize: vertical;
+}
+
+/* Buttons */
+.update-btn,
+.cancel-btn {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.update-btn {
+  background-color: #28a745;
+}
+
+.update-btn:hover {
+  background-color: #218838;
+}
+
+.cancel-btn {
+  background-color: #e74c3c;
+}
+
+.cancel-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .update-container {
+    padding: 20px;
+  }
+
+  .update-title {
+    font-size: 24px;
+  }
+
+  .update-card h2 {
+    font-size: 18px;
+  }
+
+  .update-form input,
+  .update-form textarea {
+    font-size: 15px;
+  }
+
+  .update-btn,
+  .cancel-btn {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .update-title {
+    font-size: 20px;
+  }
+
+  .update-form input,
+  .update-form textarea {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .update-btn,
+  .cancel-btn {
+    padding: 7px 12px;
+    font-size: 13px;
+  }
+}
