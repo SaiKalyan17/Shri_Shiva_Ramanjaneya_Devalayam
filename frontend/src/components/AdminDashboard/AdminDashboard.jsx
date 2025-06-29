@@ -25,7 +25,7 @@ const AdminDashboard = () => {
             </div>
             <div className='queries-box'>
                 <button><Link to='/adminquery'>Show Questions</Link></button>
-                <button>Add Admins</button>
+                <button><Link to='/adminregister'>Add Admin</Link></button>
                 <button><Link to='/admindonation'>Check Donations</Link></button>
             </div>
             </div>

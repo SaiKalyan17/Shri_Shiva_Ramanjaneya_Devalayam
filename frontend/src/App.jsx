@@ -2,6 +2,7 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
 import AdminDashboard from './components/AdminDashboard/AdminDashboard';
+import AdminRegistration from './components/AdminDashboard/AdminRegister/AdminRegistration';
 import AdminLogin from './components/AdminDashboard/Authentication/AdminLogin';
 import ProtectedRoute from './components/AdminDashboard/Authentication/ProtectedRoute';
 import AdminDonation from './components/AdminDashboard/DonationHandling/AdminDonation';
@@ -84,6 +85,10 @@ function App() {
        <AdminQueries />
        <Footer />
        </ProtectedRoute>
+       </>} />
+        <Route path='/adminregister' element={<>
+            <Navbar />
+       <AdminRegistration />
        </>} />
        <Route path='/admin/login' element={<>
             <Navbar />
