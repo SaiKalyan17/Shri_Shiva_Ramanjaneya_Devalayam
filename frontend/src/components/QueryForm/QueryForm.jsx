@@ -38,7 +38,7 @@ const QueryForm = () => {
         </div>
         <div className="form-fields">
             <label>Query:</label>
-            <textarea name="inquiry" value={formData.Inquiry} onChange={handleChange} rows="4" placeholder="Type your query here..." required/>
+            <textarea name="Inquiry" value={formData.Inquiry} onChange={handleChange} rows="4" placeholder="Type your query here..." required/>
         </div>
         <button type="submit" className="submit-btn">Submit</button>
         </form>
