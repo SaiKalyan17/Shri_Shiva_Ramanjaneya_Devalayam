@@ -26,7 +26,7 @@ const querySchema = mongoose.Schema({
         type:String,
         required:[true,"mobilenumbershould be entered"]
     },
-    inquiry:{
+    Inquiry:{
         type:String,
         required:[true,"Name should be entered"]
     },
