@@ -45,16 +45,16 @@ export const getAllEvents = async(req,res)=>{
     }
 }
 export const raiseQuery = async(req,res)=>{
-    const {name,mobileNumber,Inquiry} = req.body
+    const {name,mobileNumber,inquiry} = req.body
     try{
         //console.log("check point 1")
-        if(!name || !mobileNumber || !Inquiry){
+        if(!name || !mobileNumber || !inquiry){
             return res.status(400).json({
                 message: " Please Provide all Fields",
                 statuscode: 400,})
         }
         //console.log("check point 2")
-        const query = await Query.create({name,mobileNumber,Inquiry})
+        const query = await Query.create({name,mobileNumber,inquiry})
         //console.log("check point 3")
         res.status(201).json({
             message:"Query is uploaded will resolved quickly",

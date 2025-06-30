@@ -21,7 +21,7 @@ const Donations = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post(`${API}/api/admin/adddonation`, formData); 
+            const response = await axios.post(`${API}/api/user/adddonation`, formData); 
             console.log('Submitted successfully:', response.data);
             alert('Donation submitted successfully!');
             setFormData({ name: '', mobileNumber: '', amount: '' });

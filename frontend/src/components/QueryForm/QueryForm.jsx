@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './QueryForm.css';
 const API = import.meta.env.VITE_API_BASE_URL;
 const QueryForm = () => {
-    const [formData, setFormData] = useState({name: '',mobileNumber: '',Inquiry: ''});
+    const [formData, setFormData] = useState({name: '',mobileNumber: '',inquiry: ''});
 
     const handleChange = (e) => {
     setFormData(prev => ({
@@ -18,7 +18,7 @@ const QueryForm = () => {
         const response = await axios.post(`${API}/api/user/query`, formData);
         console.log('Submitted successfully:', response.data);
         alert('Query submitted successfully!');
-        setFormData({ name: '', mobileNumber: '', Inquiry: '' });
+        setFormData({ name: '', mobileNumber: '', inquiry: '' });
     } catch (err) {
         console.error('Error submitting form:', err);
         alert('Something went wrong!');
@@ -38,7 +38,7 @@ const QueryForm = () => {
         </div>
         <div className="form-fields">
             <label>Query:</label>
-            <textarea name="Inquiry" value={formData.Inquiry} onChange={handleChange} rows="4" placeholder="Type your query here..." required/>
+            <textarea name="inquiry" value={formData.inquiry} onChange={handleChange} rows="4" placeholder="Type your query here..." required/>
         </div>
         <button type="submit" className="submit-btn">Submit</button>
         </form>
