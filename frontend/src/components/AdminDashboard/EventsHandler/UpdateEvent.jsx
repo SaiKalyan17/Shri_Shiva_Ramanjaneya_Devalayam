@@ -10,7 +10,6 @@ const UpdateEvent = () => {
         axios.get(`${API}/api/user/getAllevents`)
         .then(res=>setEvents(res.data))
         .catch(err=>console.log('Fetch Error',err));
-        setEvents([]);
     },[]);
     const handleChange = (e) => {
     setFormData(prev => ({ 
