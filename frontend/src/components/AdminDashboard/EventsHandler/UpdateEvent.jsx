@@ -27,9 +27,9 @@ const UpdateEvent = () => {
     const handleUpdate = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.put(`${API}/api/admin/updateevent/${editId}`, formData);
+            const res = await axios.patch(`${API}/api/admin/updateevent/${editId}`, formData);
             alert('Event updated successfully!');
-            setEvents(events.map(ev => (ev._id === editId ? res.data : ev)));
+           setEvents(events.map(ev => (ev._id === editId ? res.data.updatedContact : ev)));
         setEditId(null);
         } catch (err) {
             console.error('Update error:', err);
